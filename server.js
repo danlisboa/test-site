@@ -3,7 +3,7 @@ const express = require('express')
 const app = express()
 
 app.get('/', (req, res) => {
-  res.send('site propagado')
+  res.send('site propagado 2')
 })
 
 app.listen(3000)
