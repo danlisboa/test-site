@@ -3,7 +3,7 @@ const express = require('express')
 const app = express()
 
 app.get('/', (req, res) => {
-  res.send('klivus.tech')
+  res.send('site')
 })
 
 app.listen(3000)
