@@ -15,5 +15,5 @@ permissions:
 hooks:
   AfterInstall:
     - location: init.sh
-      timeout: 120
+      timeout: 240
       runas: ubuntu
